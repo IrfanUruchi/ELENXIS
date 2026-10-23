@@ -1,0 +1,9 @@
+# Deny by default. Only the explicitly reviewed public documents may be staged normally.
+/*
+!/.gitignore
+!/README.md
+!/RIGHTS_AND_PERMISSIONS.md
+!/docs/
+/docs/*
+!/docs/ARCHITECTURE.md
+!/docs/RESEARCH_STATUS.md
